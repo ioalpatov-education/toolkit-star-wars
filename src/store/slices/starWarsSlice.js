@@ -12,7 +12,7 @@ const initialState = {
 };
 
 export const starWarsSlice = createSlice({
-  name: "counter",
+  name: "starWars",
   initialState,
   reducers: {
     changeFilteredFacts: (state, action) => {
